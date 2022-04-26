@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-
-
-<!--End of preload-->
-
-
-
-
-<div class="scroll-up-btn">
-    <i class="fas fa-angle-up"></i>
-</div>
-
-
-
-
 <!-- home section start -->
 <section class="home" id="home">
     <div class="max-width">

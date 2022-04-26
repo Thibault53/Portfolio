@@ -41,10 +41,6 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
 
 
-  <!-- wow js active -->
-  <script type="text/javascript">
-    new WOW().init();
-  </script>
   <script type="text/javascript" src="js/plugins.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 
@@ -81,12 +77,10 @@
 
 
   <!-- Features -->
-  <section class="tm-features-section" id="features">
-    <div class="row tm-features-row">
-      <div class="col-12">
-        <?php echo $content_for_layout ?>
-      </div>
-    </div>
+  <section>
+
+    <?php echo $content_for_layout ?>
+
   </section>
 
 
