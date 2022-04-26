@@ -54,6 +54,7 @@
 
 
 <body data-spy="scroll" data-target=".navbar-desktop">
+  
   <nav class="navbar">
     <div class="max-width">
       <div class="logo"></div>

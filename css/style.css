@@ -641,10 +641,11 @@ F .main_coppyright {
     filter: brightness(90%);
 }
 
-
+/* Problèmes sur le nav, cela rend le nav entièrement blanc
 section {
     padding: 100px 0;
 }
+*/
 
 .max-width {
     max-width: 1300px;
