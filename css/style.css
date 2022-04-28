@@ -138,59 +138,83 @@ input[type=date], input[type=datetime-local], input[type=email], input[type=numb
 
 
 
+
+
 /*==========================================================
-                    About us section style
+                    Skills section
 ============================================================*/
 
-.single_about .panel-default>.panel-heading {
+.skills .title::after{
+    content: "what i know";
+}
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .left p{
+    text-align: justify;
+}
+.skills .skills-content .left a{
+    display: inline-block;
+    background: crimson;
     color: #fff;
-    border-color: #ddd;
-    background: url(../img/accordion.png) no-repeat right -116px #333;
-    transition: all 0.0s;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
 }
-
-.single_about .panel-default>.panel-heading p {
-    margin-top: 0;
-    margin-bottom: 0;
+.skills .skills-content .left a:hover{
+    color: crimson;
+    background: none;
 }
-
-.panel-heading.bgg.bg {
-    background: url(../img/accordion.png) no-repeat right 7px #ec4848;
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
 }
-
-.panel-heading.bgg1.bg {
-    background: url(../img/accordion.png) no-repeat right 7px #ec4848;
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
 }
-
-.panel-heading.bgg2.bg {
-    background: url(../img/accordion.png) no-repeat right 7px #ec4848;
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
 }
-
-.single_about .panel-title {
+.skills .skills-content .right .line{
+    height: 5px;
     width: 100%;
+    background: lightgrey;
+    position: relative;
 }
-
-.single_about .panel-body {
-    padding: 6px;
-    border: 1px solid #c4c4c4;
-    background: #f8f8f8;
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
 }
-
-.panel-heading {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    padding-left: 15px;
-    line-height: 3rem;
+.skills-content .right .html::before{
+    width: 90%;
 }
-
-.panel-group .panel {
-    border-radius: 0px;
-    margin-bottom: 20px;
+.skills-content .right .css::before{
+    width: 60%;
 }
-
-.single_about .panel-title>a {
-    color: #fff;
-    display: block;
+.skills-content .right .js::before{
+    width: 80%;
+}
+.skills-content .right .php::before{
+    width: 50%;
+}
+.skills-content .right .mysql::before{
+    width: 70%;
 }
 
 /*===================================================================*/

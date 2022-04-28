@@ -13,84 +13,56 @@
 
 
 
-<section id="about" class="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="main_about_area">
-                    <div class="head_title center m-y-3 wow fadeInUp">
-                        <h2>Qui je suis</h2>
-                        <p>Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy
-                            text ever since the 1500s.</p>
+<!-- skills section start -->
+<section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">My skills</h2>
+        <div class="skills-content">
+            <div class="column left">
+                <div class="text">My creative skills & experiences.</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="column right">
+                <div class="bars">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>90%</span>
                     </div>
-
-                    <div class="main_about_content">
-                        <div class="row">
-
-
-                            <div class="col-md-6">
-                                <div class="single_about
-                                            about_progress">
-                                    <div class="skill wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
-                                        <!-- progress start -->
-                                        <div class="progress">
-                                            <div class="lead">Développement
-                                                web 95%</div>
-                                            <div class="progress-bar wow
-                                                        fadeInLeft" data-progress="95%" style="width: 95%;" data-wow-duration="1.5s" data-wow-delay="1.2s"></div>
-                                        </div>
-                                        <!-- progress end -->
-                                        <!-- progress start -->
-                                        <div class="progress">
-                                            <div class="lead">Développement
-                                                d'application 90%</div>
-                                            <div class="progress-bar wow
-                                                        fadeInLeft" data-progress="90%" style="width: 90%;" data-wow-duration="1.5s" data-wow-delay="1.2s"></div>
-                                        </div>
-                                        <!-- progress end -->
-                                        <!-- progress start -->
-                                        <div class="progress">
-                                            <div class="lead">Dévelopement
-                                                logiciel 85%</div>
-                                            <div class="progress-bar wow
-                                                        fadeInLeft" data-progress="85%" style="width: 85%;" data-wow-duration="1.5s" data-wow-delay="1.2s"></div>
-                                        </div>
-                                        <!-- progress end -->
-                                        <!-- progress start -->
-                                        <div class="progress">
-                                            <div class="lead">Graphics
-                                                Design 80%</div>
-                                            <div class="progress-bar wow
-                                                        fadeInLeft" data-progress="80%" style="width: 80%;" data-wow-duration="1.5s" data-wow-delay="1.2s"></div>
-                                        </div>
-                                        <!-- progress end -->
-                                        <!-- progress start -->
-                                        <div class="progress">
-                                            <div class="lead">Marketing
-                                                70%</div>
-                                            <div class="progress-bar wow
-                                                        fadeInLeft" data-progress="70%" style="width: 70%;" data-wow-duration="1.5s" data-wow-delay="1.2s"></div>
-                                        </div>
-                                        <!-- PROGRESS END -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="caption center-align">
-                            <a class="btn btn-danger waves-effect
-                                        waves-red" href="views/skills.html">En
-                                savoir plus</a>
-                        </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>60%</span>
                     </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>PHP</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line php"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>MySQL</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line mysql"></div>
                 </div>
             </div>
         </div>
     </div>
-    <hr />
-
-</section><!-- End of About Section-->
+</section>
 
 
 
