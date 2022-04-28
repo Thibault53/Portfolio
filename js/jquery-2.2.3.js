@@ -8550,7 +8550,7 @@ jQuery.extend( {
 				// If there is an error parsing the URL, assume it is crossDomain,
 				// it can be rejected by the transport if it is invalid
 				s.crossDomain = true;
-			}z
+			}
 		}
 
 		// Convert data if not already a string

@@ -2,21 +2,37 @@
 <section class="home" id="home">
     <div class="max-width">
         <div class="home-content">
-            <div class="text-1">Bonjour, je suis</div>
-            <div class="text-2">Thibault Yvard</div>
-            <div class="text-3">Et je suis développeur <span class="typing"></span></div>
+            <div class="text-1">Bonjour, mon nom est</div>
+            <div class="text-2">Thibault  Yvard</div>
+            <div class="text-3">Et je suis <span class="typing"></span></div>
         </div>
     </div>
 </section>
 
 
-
+<!-- about section start -->
+<section class="about" id="about">
+    <div class="max-width">
+        <h2 class="title">A propos de moi</h2>
+        <div class="about-content">
+            <div class="column left">
+                <img src="/images/profile-1.jpeg" alt="">
+            </div>
+            <div class="column right">
+                <div class="text">Je suis Thibault Yvard <span class="typing-2"></span></div>
+                <p> J'ai actuellement 21 ans et je suis étudiant en BTS SIO option SLAM à Laval. Vous trouverez ici mes travaux réalisés dans le cadre de mes études et de ma carrière professionnelle.</p>
+                <a href="#">Download CV</a>
+            </div>
+        </div>
+    </div>
+</section>
+<hr/>
 
 
 <!-- skills section start -->
 <section class="skills" id="skills">
     <div class="max-width">
-        <h2 class="title">My skills</h2>
+        <h2 class="title">Mes compétences</h2>
         <div class="skills-content">
             <div class="column left">
                 <div class="text">My creative skills & experiences.</div>
@@ -63,225 +79,101 @@
         </div>
     </div>
 </section>
-
-
-
-
-<section id="offer" class="offer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="main_offer_area">
-                    <div class="head_title center m-y-3 wow fadeInUp">
-                        <h2>Activités</h2>
-                    </div>
-                    <div class="main_offer_content m-b-3 wow fadeInUp">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="single_offer m-t-3">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <div class="single_offer_icon">
-                                                <i class="fa fa-cloud"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="single_offer_text">
-                                                <h3>technical analysis</h3>
-                                                <p>Lorem Ipsum is simply
-                                                    dummy text of the
-                                                    printing and
-                                                    typesetting
-                                                    industry.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single_offer m-t-3">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <div class="single_offer_icon">
-                                                <i class="fa
-                                                            fa-cart-arrow-down"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="single_offer_text">
-                                                <h3>technical analysis</h3>
-                                                <p>Lorem Ipsum is simply
-                                                    dummy text of the
-                                                    printing and
-                                                    typesetting
-                                                    industry.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single_offer m-t-3">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <div class="single_offer_icon">
-                                                <i class="fa
-                                                            fa-line-chart"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="single_offer_text">
-                                                <h3>technical analysis</h3>
-                                                <p>Lorem Ipsum is simply
-                                                    dummy text of the
-                                                    printing and
-                                                    typesetting
-                                                    industry.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single_offer m-t-3">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <div class="single_offer_icon">
-                                                <i class="fa
-                                                            fa-shopping-basket"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-9">
-                                            <div class="single_offer_text">
-                                                <h3>technical analysis</h3>
-                                                <p>Lorem Ipsum is simply
-                                                    dummy text of the
-                                                    printing and
-                                                    typesetting
-                                                    industry.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr />
-</section><!-- End of Offer Section -->
-
-
+<hr/>
 
 <section id="portfolio" class="portfolio">
     <div class="container">
         <div class="row">
             <div class="main_portfolio_area m-y-3">
                 <div class="head_title center wow fadeInUp">
-                    <h2>Mon travail</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Vestibulum nec odio ipsum.
-                        Suspendisse
-                        cursus malesuada facilisis.Lorem ipsum dolor sit
-                        amet, consectetur facilisis.</p>
+                    <h2 class="title">Mes travaux</h2>
+                    <p>Voici les différents projets sur lesquels je travaille ou que j'ai pu effectué</p>
                 </div>
 
                 <div class="main_portfolio_content center wow fadeInUp">
                     <div class="main_mix_menu m-y-2">
                         <ul class="text-uppercase">
                             <li class="filter" data-filter="all">Tout</li>
-                            <li class="filter" data-filter=".cat1">Thème1</li>
-                            <li class="filter" data-filter=".cat2">Thème2</li>
-                            <li class="filter" data-filter=".cat3">Thème3</li>
+                            <li class="filter" data-filter=".cat1">Personnel</li>
+                            <li class="filter" data-filter=".cat2">Cours</li>
+                            <li class="filter" data-filter=".cat3">Stage</li>
                             <li class="filter" data-filter=".cat4">Thème4</li>
                         </ul>
                     </div>
 
-                    <div id="mixcontent" class="mixcontent wow zoomIn">
+                    <div id="mixcontent" class="mixcontent zoomIn">
                         <div class="col-md-4 mix cat4 cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="img/pf1.jpg" alt="" />
+                                    <img src="images\raven.png" alt="" />
                                     <div class="mixi_portfolio_overlay">
-                                        <a href="#!"><i class="fa
+                                        <a href="#modal-01"><i class="fa
                                                         fa-search"></i></a>
-                                        <a href="img/pf1.jpg" class="gallery-img"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="single_portfolio_text">
-                                    <h3>Our Work Image 06</h3>
-                                    <p>Lorem ipsum dolor sit amet,
-                                        consectetur</p>
+                                    <h3>Raven</h3>
+                                    <p>Site de commerce</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 mix cat4 cat1">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="img/pf2.jpg" alt="" />
+                                    <img src="images\loup-garou.png" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
-                                        <a href="img/pf2.jpg" class="gallery-img"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="single_portfolio_text">
-                                    <h3>Our Work Image 06</h3>
-                                    <p>Lorem ipsum dolor sit amet,
-                                        consectetur</p>
+                                    <h3>Loup Garou</h3>
+                                    <p>Adaptation du célèbre jeu de carte</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 mix cat2 cat4">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="img/pf3.jpg" alt="" />
+                                    <img src="images\pf3.jpg" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
-                                        <a href="img/pf3.jpg" class="gallery-img"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="single_portfolio_text">
-                                    <h3>Our Work Image 06</h3>
-                                    <p>Lorem ipsum dolor sit amet,
-                                        consectetur</p>
+                                    <h3>VTOMJOB</h3>
+                                    <p>Planificateur de copie</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 mix cat2 cat3">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="img/pf4.jpg" alt="" />
+                                    <img src="images\pf4.jpg" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
-                                        <a href="img/pf4.jpg" class="gallery-img"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="single_portfolio_text">
-                                    <h3>Our Work Image 06</h3>
-                                    <p>Lorem ipsum dolor sit amet,
-                                        consectetur</p>
+                                    <h3>Crocs Vinton</h3>
+                                    <p>Site de commerce</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 mix cat3 cat4">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="img/pf5.jpg" alt="" />
+                                    <img src="images\pf5.jpg" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
-                                        <a href="img/pf5.jpg" class="gallery-img"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="single_portfolio_text">
-                                    <h3>Our Work Image 06</h3>
-                                    <p>Lorem ipsum dolor sit amet,
-                                        consectetur</p>
+                                    <h3>TopMedecin</h3>
+                                    <p>Site de promotion</p>
                                 </div>
                             </div>
                         </div>
@@ -292,13 +184,11 @@
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
-                                        <a href="img/pf6.jpg" class="gallery-img"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                                 <div class="single_portfolio_text">
-                                    <h3>Our Work Image 06</h3>
-                                    <p>Lorem ipsum dolor sit amet,
-                                        consectetur</p>
+                                    <h3>Sonolight</h3>
+                                    <p>Site évenementiel</p>
                                 </div>
                             </div>
                         </div><!-- End of col-md-4 -->
@@ -308,45 +198,5 @@
             </div>
         </div>
     </div>
-    <hr />
 </section><!-- End of Portfolio Section -->
-
-
-
-<section id="works" class="works">
-    <div class="container">
-        <div class="row">
-            <div class="main_works_area center m-y-3">
-                <div class="head_title center wow fadeInUp">
-                    <h2>Our Awesome Works</h2>
-                </div>
-
-                <div class="main_works_content p-y-3">
-                    <div class="col-md-3">
-                        <div class="single_works wow zoomIn">
-                            <img src="img/works1.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="single_works wow zoomIn">
-                            <img src="img/works2.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="single_works wow zoomIn">
-                            <img src="img/works3.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="single_works wow zoomIn">
-                            <img src="img/works4.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr />
-</section><!-- End of works Section -->
-
-</html>
+<hr/>
