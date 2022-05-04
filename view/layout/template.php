@@ -4,14 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Portfolio Website</title>
+  <title>Portfolio de Thibault Yvard</title>
   <link rel="stylesheet" href="css\style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
   <!-- Bootstrap core CSS -->
   <link href="css\bootstrap.min.css" rel="stylesheet">
@@ -23,22 +20,14 @@
 
 
 
-
-
    <!-- SCRIPTS -->
 
     <!-- JQuery -->
     <script type="text/javascript" src="js\jquery-2.2.3.min.js"></script>
 
 
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js\bootstrap.min.js"></script>
-
-
-
     <!-- Mixitup js -->
     <script type="text/javascript" src="js\jquery.mixitup.min.js"></script>
-    <script type="text/javascript" src="js\main.js"></script>
 </head>
 
 
@@ -55,7 +44,7 @@
         <li><a href="#about" class="menu-btn">A propos</a></li>
         <li><a href="#skills" class="menu-btn">Compétences</a></li>
         <li><a href="#portfolio" class="menu-btn">Travaux</a></li>
-        <li><a href="#contact" class="menu-btn">Contact</a></li>
+        <!--    <li><a href="#contact" class="menu-btn">Contact</a></li>   -->
       </ul>
       <div class="menu-btn">
         <i class="fas fa-bars"></i>

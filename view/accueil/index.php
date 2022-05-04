@@ -3,8 +3,8 @@
     <div class="max-width">
         <div class="home-content">
             <div class="text-1">Bonjour, mon nom est</div>
-            <div class="text-2">Thibault  Yvard</div>
-            <div class="text-3">Et je suis <span class="typing"></span></div>
+            <div class="text-2">Thibault Yvard</div>
+            <div class="text-3">Et je suis développeur <span class="typing"></span></div>
         </div>
     </div>
 </section>
@@ -21,12 +21,12 @@
             <div class="column right">
                 <div class="text">Je suis Thibault Yvard <span class="typing-2"></span></div>
                 <p> J'ai actuellement 21 ans et je suis étudiant en BTS SIO option SLAM à Laval. Vous trouverez ici mes travaux réalisés dans le cadre de mes études et de ma carrière professionnelle.</p>
-                <a href="#">Download CV</a>
+                <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a>
             </div>
         </div>
     </div>
 </section>
-<hr/>
+<hr />
 
 
 <!-- skills section start -->
@@ -35,9 +35,9 @@
         <h2 class="title">Mes compétences</h2>
         <div class="skills-content">
             <div class="column left">
-                <div class="text">My creative skills & experiences.</div>
+                <div class="text">Mes compétences</div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
-                <a href="#">Read more</a>
+                <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a>
             </div>
             <div class="column right">
                 <div class="bars">
@@ -79,7 +79,12 @@
         </div>
     </div>
 </section>
-<hr/>
+<hr />
+
+
+
+
+
 
 <section id="portfolio" class="portfolio">
     <div class="container">
@@ -97,12 +102,11 @@
                             <li class="filter" data-filter=".cat1">Personnel</li>
                             <li class="filter" data-filter=".cat2">Cours</li>
                             <li class="filter" data-filter=".cat3">Stage</li>
-                            <li class="filter" data-filter=".cat4">Thème4</li>
                         </ul>
                     </div>
 
                     <div id="mixcontent" class="mixcontent zoomIn">
-                        <div class="col-md-4 mix cat4 cat2">
+                        <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="images\raven.png" alt="" />
@@ -117,7 +121,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mix cat4 cat1">
+                        <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="images\loup-garou.png" alt="" />
@@ -132,10 +136,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mix cat2 cat4">
+                        <div class="col-md-4 mix cat3">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="images\pf3.jpg" alt="" />
+                                    <img src="images\cofidur.png" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
@@ -147,7 +151,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mix cat2 cat3">
+                        <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="images\pf4.jpg" alt="" />
@@ -162,10 +166,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mix cat3 cat4">
+                        <div class="col-md-4 mix cat3">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="images\pf5.jpg" alt="" />
+                                    <img src="images\topmedecin.png" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
@@ -177,10 +181,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mix cat1 cat3">
+                        <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="img/pf6.jpg" alt="" />
+                                    <img src="images/nodejs.png" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
@@ -193,10 +197,44 @@
                             </div>
                         </div><!-- End of col-md-4 -->
 
+                        <div class="col-md-4 mix cat1">
+                            <div class="single_mixi_portfolio center">
+                                <div class="single_portfolio_img">
+                                    <img src="images/portfolio.png" alt="" />
+                                    <div class="mixi_portfolio_overlay">
+                                        <a href="#!"><i class="fa
+                                                        fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <div class="single_portfolio_text">
+                                    <h3>Portfolio</h3>
+                                    <p>Site professionnel</p>
+                                </div>
+                            </div>
+                        </div><!-- End of col-md-4 -->
+
+
+
+                        <div class="col-md-4 mix cat1">
+                            <div class="single_mixi_portfolio center">
+                                <div class="single_portfolio_img">
+                                    <img src="images/djs.png" alt="" />
+                                    <div class="mixi_portfolio_overlay">
+                                        <a href="#!"><i class="fa
+                                                        fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <div class="single_portfolio_text">
+                                    <h3>Bot Discord</h3>
+                                    <p>Robot utilisable sur le réseau social Discord</p>
+                                </div>
+                            </div>
+                        </div><!-- End of col-md-4 -->
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section><!-- End of Portfolio Section -->
-<hr/>
+<hr />
