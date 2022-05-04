@@ -16,7 +16,7 @@
         <h2 class="title">A propos de moi</h2>
         <div class="about-content">
             <div class="column left">
-                <img src="/images/profile-1.jpeg" alt="">
+                <img src="<?= WEBROOT ?>public/images/..." alt="">
             </div>
             <div class="column right">
                 <div class="text">Je suis Thibault Yvard <span class="typing-2"></span></div>
@@ -109,7 +109,7 @@
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="images\raven.png" alt="" />
+                                    <img src="<?= WEBROOT ?>public/images/raven.png" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#modal-01"><i class="fa
                                                         fa-search"></i></a>
@@ -124,7 +124,7 @@
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="images\loup-garou.png" alt="" />
+                                    <img src="<?= WEBROOT ?>public/images/loup-garou.png" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
@@ -139,7 +139,7 @@
                         <div class="col-md-4 mix cat3">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="images\cofidur.png" alt="" />
+                                    <img src="<?= WEBROOT ?>public/images/cofidur.png" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
@@ -154,7 +154,7 @@
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="images\pf4.jpg" alt="" />
+                                    <img src="<?= WEBROOT ?>/public/images/..." alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
@@ -169,7 +169,7 @@
                         <div class="col-md-4 mix cat3">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="images\topmedecin.png" alt="" />
+                                    <img src="<?= WEBROOT ?>public/images/topmedecin.png" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
@@ -184,7 +184,7 @@
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="images/nodejs.png" alt="" />
+                                    <img src="<?= WEBROOT ?>public/images/nodejs.png" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
@@ -200,7 +200,7 @@
                         <div class="col-md-4 mix cat1">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="images/portfolio.png" alt="" />
+                                    <img src="<?= WEBROOT ?>public/images/portfolio.png" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
@@ -218,7 +218,7 @@
                         <div class="col-md-4 mix cat1">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="images/djs.png" alt="" />
+                                    <img src="<?= WEBROOT ?>public/images/djs.png" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>

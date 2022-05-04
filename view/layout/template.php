@@ -5,29 +5,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio de Thibault Yvard</title>
-  <link rel="stylesheet" href="css\style.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 
   <!-- Bootstrap core CSS -->
-  <link href="css\bootstrap.min.css" rel="stylesheet">
+  <link href="<?= WEBROOT ?>public/css/bootstrap.min.css" rel="stylesheet">
 
 
   <!-- Your custom styles (optional) -->
-  <link href="css\style.css" rel="stylesheet">
-  <script src="js\script.js"></script>
+  <link rel="stylesheet" href="<?= WEBROOT ?>public/css/style.css">
+  <script src="<?= WEBROOT ?>public/js/script.js"></script>
 
 
 
-   <!-- SCRIPTS -->
+  <!-- SCRIPTS -->
 
-    <!-- JQuery -->
-    <script type="text/javascript" src="js\jquery-2.2.3.min.js"></script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="<?= WEBROOT ?>public/js/jquery-2.2.3.min.js"></script>
 
 
-    <!-- Mixitup js -->
-    <script type="text/javascript" src="js\jquery.mixitup.min.js"></script>
+  <!-- Mixitup js -->
+  <script type="text/javascript" src="<?= WEBROOT ?>public/js/jquery.mixitup.min.js"></script>
 </head>
 
 
@@ -63,7 +63,30 @@
 
 
   <footer>
-    <span>Created By <a href="https://www.codingnepalweb.com">CodingNepal</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+    <div class="container">
+      <div class="main_coppyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-xs-12">
+              <div class="copyright_text m-t-2 text-xs-center">
+                <p class="wow zoomIn" data-wow-duration="1s">Made with <i class="fa fa-heart"></i> by Thibault Yvard</a> 2016. All
+                  Rights Reserved</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="socail_coppyright text-sm-right m-t-2 text-xs-center wow zoomIn">
+                <a href="#!"><i class="fa fa-facebook"></i></a>
+                <a href="#!"><i class="fa fa-twitter"></i></a>
+                <a href="#!"><i class="fa fa-google-plus"></i></a>
+                <a href="#!"><i class="fa fa-rss"></i></a>
+                <a href="#!"><i class="fa fa-vimeo"></i></a>
+                <a href="#!"><i class="fa fa-pinterest"></i></a>
+                <a href="#!"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   </footer>
 
 </body>
