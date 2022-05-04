@@ -85,7 +85,13 @@ section .title::after {
     transform: translateX(-50%);
 }
 
-/* navbar styling */
+
+
+
+
+
+
+/*-------------------------------------NAVBAR-------------------------------------*/
 .navbar {
     position: fixed;
     width: 100%;
@@ -182,7 +188,7 @@ section .title::after {
 }
 
 
-/* home section styling */
+/*-------------------------------------Accueil-------------------------------------*/
 .home {
     display: flex;
     background: url("../images/banner.jpg") no-repeat center;
@@ -241,7 +247,7 @@ section .title::after {
     background: none;
 }
 
-/* about section styling */
+/*-------------------------------------A PROPOS-------------------------------------*/
 
 .about .about-content .left {
     width: 45%;
@@ -291,7 +297,13 @@ section .title::after {
 }
 
 
-/* skills section styling */
+
+
+
+
+
+
+/*-------------------------------------SKILLS-------------------------------------*/
 
 
 
@@ -397,7 +409,7 @@ footer span a:hover {
 }
 
 
-/* responsive media query start */
+/*-------------------------------------RESPONSIVE-------------------------------------*/
 @media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
@@ -550,8 +562,12 @@ footer span a:hover {
 }
 
 
+
+
+
+
 /*=====================================================================
-                Portfolio Section Style
+                Portfolio
 =======================================================================*/
 
 
@@ -617,4 +633,19 @@ footer span a:hover {
     display: none;
     -webkit-backface-visibility: hidden;
     -webkit-transform-origin: 50% 0;
+}
+
+
+
+/*=====================================================================
+                FOOTER
+=======================================================================*/
+
+footer i{
+    color:rgb(255, 255, 255);
+}
+
+footer .text-sm-right i{
+    color:rgb(180, 180, 180);
+    font-size: 1.2rem;
 }
