@@ -2,8 +2,8 @@
 //Panier ou connexion
 
 //Définition de constante pour le chemin des fichiers
-define('WEBROOT', str_replace('index.php', '', $_SERVER['SCRIPT_NAME'])); //Affiche /20212022/monsite/mvc/
-define('ROOT', str_replace('index.php', '', $_SERVER['SCRIPT_FILENAME'])); //Affiche D:/APPLICATIONS/WAMP/www/monsite/mvc/
+define('WEBROOT', str_replace('index.php', '', $_SERVER['SCRIPT_NAME']));
+define('ROOT', str_replace('index.php', '', $_SERVER['SCRIPT_FILENAME']));
 require_once ROOT . '/core/Controller.php';
 require_once ROOT . '/core/Model.php';
 
@@ -42,9 +42,6 @@ if (file_exists(ROOT . 'controller/' . $controller . '.php')) {
 
 
 //On appelle l'action donnée en URL
-
-
-
 
 function erreur()
 {

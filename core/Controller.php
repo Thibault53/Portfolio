@@ -17,7 +17,8 @@ class Controller
         $chemin = ROOT . "view/" . strtolower(get_class($this)) . "/" . $filename . ".php";
         require($chemin);
         $content_for_layout = ob_get_clean();
-        if ($this->layout == false) {
+        
+        if ($this->layout == false || $filename =="erreur404" || $filename =="erreur403" || $filename =="erreur500") {
             echo $content_for_layout;
         } else {
             require(ROOT . 'view/layout/' . $this->layout . '.php');
