@@ -70,8 +70,8 @@
       </div>
       <div class="col-sm-6">
         <div class="text-sm-right m-t-2">
-          <a href="#!"><i class="fa-brands fa-linkedin"></i></i></a>
-          <a href="#!"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/thibault-yvard-754133207/"><i class="fa-brands fa-linkedin"></i></i></a>
+          <a href="https://github.com/Thibault53"><i class="fa-brands fa-github"></i></a>
         </div>
       </div>
   </footer>
