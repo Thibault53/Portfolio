@@ -15,18 +15,11 @@
 
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="<?= WEBROOT ?>public/css/style.css">
+
+  <!-- Scripts -->
   <script src="<?= WEBROOT ?>public/js/script.js"></script>
-
-
-
-  <!-- SCRIPTS -->
-
-  <!-- JQuery -->
-  <script type="text/javascript" src="<?= WEBROOT ?>public/js/jquery-2.2.3.min.js"></script>
-
-
-  <!-- Mixitup js -->
-  <script type="text/javascript" src="<?= WEBROOT ?>public/js/jquery.mixitup.min.js"></script>
+  <script src="<?= WEBROOT ?>public/js/jquery-2.2.3.min.js"></script>
+  <script src="<?= WEBROOT ?>public/js/jquery.mixitup.min.js"></script>
 </head>
 
 
@@ -44,6 +37,7 @@
         <li><a href="#skills" class="menu-btn">Compétences</a></li>
         <li><a href="#portfolio" class="menu-btn">Travaux</a></li>
         <!--    <li><a href="#contact" class="menu-btn">Contact</a></li>   -->
+        <li><a href="https://docs.thibault-yvard.fr/" class="menu-btn">Documentation</a></li>
       </ul>
       <div class="menu-btn">
         <i class="fas fa-bars"></i>
@@ -53,7 +47,7 @@
 
 
 
-  <!-- Features -->
+  <!-- Body -->
   <section>
 
     <?php echo $content_for_layout ?>

@@ -1,4 +1,4 @@
-<!-- home section start -->
+<!-- Section acceuil -->
 <section class="home" id="home">
     <div class="max-width">
         <div class="home-content">
@@ -10,7 +10,10 @@
 </section>
 
 
-<!-- about section start -->
+
+
+
+<!-- Section A propos -->
 <section class="about" id="about">
     <div class="max-width">
         <h2 class="title">A propos de moi</h2>
@@ -29,7 +32,10 @@
 <hr />
 
 
-<!-- skills section start -->
+
+
+
+<!-- Section Compétences -->
 <section class="skills" id="skills">
     <div class="max-width">
         <h2 class="title">Mes compétences</h2>
@@ -85,7 +91,7 @@
 
 
 
-
+<!-- Section Travaux -->
 <section id="portfolio" class="portfolio">
     <div class="container">
         <div class="row">
@@ -105,6 +111,8 @@
                         </ul>
                     </div>
 
+
+
                     <div id="mixcontent" class="mixcontent zoomIn">
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
@@ -121,6 +129,9 @@
                                 </div>
                             </div>
                         </div>
+
+
+
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
@@ -136,6 +147,9 @@
                                 </div>
                             </div>
                         </div>
+
+
+
                         <div class="col-md-4 mix cat3">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
@@ -151,10 +165,13 @@
                                 </div>
                             </div>
                         </div>
+
+
+
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="<?= WEBROOT ?>/public/images/..." alt="" />
+                                    <img src="<?= WEBROOT ?>/public/images/crocsvinton.png" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
@@ -166,6 +183,9 @@
                                 </div>
                             </div>
                         </div>
+
+
+
                         <div class="col-md-4 mix cat3">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
@@ -181,6 +201,9 @@
                                 </div>
                             </div>
                         </div>
+
+
+
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
@@ -195,7 +218,9 @@
                                     <p>Site évenementiel</p>
                                 </div>
                             </div>
-                        </div><!-- End of col-md-4 -->
+                        </div>
+
+
 
                         <div class="col-md-4 mix cat1">
                             <div class="single_mixi_portfolio center">
@@ -211,7 +236,7 @@
                                     <p>Site professionnel</p>
                                 </div>
                             </div>
-                        </div><!-- End of col-md-4 -->
+                        </div>
 
 
 
@@ -229,12 +254,10 @@
                                     <p>Robot utilisable sur le réseau social Discord</p>
                                 </div>
                             </div>
-                        </div><!-- End of col-md-4 -->
-
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section><!-- End of Portfolio Section -->
-<hr />
+</section>
