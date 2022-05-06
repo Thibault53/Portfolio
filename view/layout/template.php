@@ -34,7 +34,7 @@
   </div>
   <nav class="navbar">
     <div class="max-width">
-      <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+      <div class="logo"><a href="">Portfo<span>lio.</span></a></div>
       <ul class="menu menu-ul">
         <li><a href="#home" class="menu-btn">Accueil</a></li>
         <li><a href="#about" class="menu-btn">A propos</a></li>

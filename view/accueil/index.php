@@ -24,7 +24,7 @@
             <div class="column right">
                 <div class="text">Je suis Thibault Yvard <span class="typing-2"></span></div>
                 <p> J'ai actuellement 21 ans et je suis étudiant en BTS SIO option SLAM à Laval. Vous trouverez ici mes travaux réalisés dans le cadre de mes études et de ma carrière professionnelle.</p>
-                <!-- <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a> -->
+                <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a>
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
             <div class="column left">
                 <div class="text">Mes compétences</div>
                 <p>Lors de mon cursus, j'ai aquis plusieurs compétences que ce soit informatique ou humain. J'ai appris les méthodes agiles, le versioning, la gestion de projet, mettre en place une veille technologique ... </p>
-                <!-- <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a> -->
+                <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a>
             </div>
             <div class="column right">
                 <div class="bars">
@@ -149,7 +149,7 @@
 
                 <div class="main_portfolio_content center wow fadeInUp">
                     <div class="main_mix_menu m-y-2">
-                        <ul class="text-uppercase">
+                        <ul class="text-uppercase portfolio-filter">
                             <li class="filter" data-filter="all">Tout</li>
                             <li class="filter" data-filter=".cat1">Personnel</li>
                             <li class="filter" data-filter=".cat2">Cours</li>
@@ -160,6 +160,11 @@
 
                     <!-- RAVEN -->
                     <div id="mixcontent" class="mixcontent zoomIn">
+
+
+
+
+
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
@@ -175,19 +180,19 @@
                             </div>
                         </div>
 
-
-
                         <div class="modal fade" id="RavenModal" tabindex="-1" aria-labelledby="RavenModal" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Raven</h5>
+                                        <h3 class="modal-title" id="exampleModalLabel">Raven</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
                                         Raven est mon deuxième projet web réalisé durant mon BTS SIO.
-                                        C'est une compagnie e-sport qui vend, via un site e-commerce, les produits dérivés de nos équipes compétitives. Le site est réalisé avec le framwork MVC.
-                                        <br> Vous pouvez retrouver le site <a href="http://195.221.60.26:11019/2022-raven/"> ici.</a>
+                                        C'est une compagnie e-sport qui vend, via un site e-commerce, les produits dérivés de nos équipes compétitives. Le site est réalisé en HTML, CSS, JavaScript, jQuery, PHP, MySql, Bootstrap et utilise le framwork MVC.
+                                        <br> Vous pouvez retrouver le site <a href="http://195.221.60.26:11019/2022-raven/"> ici.</a><br>
+                                        Le projet contient aussi une application C# permettant de gérer la base de données qui utilise le modèle MVVM.<br>
+                                        Nous avons aussi travaillés en mode projet<br> <a href="https://btsinfo53.fr/mahara/view/view.php?id=3976">Voir en détails</a>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
@@ -220,11 +225,12 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Loup Garou</h5>
+                                        <h3 class="modal-title" id="exampleModalLabel">Loup Garou</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
                                         Le Loup Garou est un projet de 1er année de BTS SIO où nous avons réalisé le jeu de société du loup garou sous C#.
+                                        <a href="https://btsinfo53.fr/mahara/view/view.php?id=3765"> Voir en détails</a>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
@@ -255,11 +261,47 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">VTOMJOB</h5>
+                                        <h3 class="modal-title" id="exampleModalLabel">VTOMJOB</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        L'application VTOMJOB est un projet de stage. Elle consiste à gérer des "Jobs" (Copie de fichiers dans des dossiers tout en le modifiant). L'application est réalisée en C#, j'ai aussi développé une Librairy, puis réalisé une IHM sous WINDEV.
+                                        L'application VTOMJOB est un projet de stage. Elle consiste à gérer des "Jobs" (Copie de fichiers dans des dossiers tout en le modifiant). L'application est réalisée en C#, j'ai aussi développé une Library, puis réalisé une IHM sous WINDEV.<br>
+                                        <a href="https://btsinfo53.fr/mahara/view/view.php?id=4133"> Voir en détails</a>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PORTFOLIO -->
+                        <div class="col-md-4 mix cat1">
+                            <div class="single_mixi_portfolio center">
+                                <div class="single_portfolio_img">
+                                    <img src="<?= WEBROOT ?>public/images/portfolio.png" alt="" />
+                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#PortfolioModal">
+                                        <a href="#!"><i class="fa
+                                                        fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <div class="single_portfolio_text">
+                                    <h3>Ce site web</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="PortfolioModal" tabindex="-1" aria-labelledby="PortfolioModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLabel">Ce site web</h3>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Projet personnel dans laquel je souhaite avoir un site qui centralisera mes différents projets, héberger des services, me servir de documentation, ... <br> Pour le moment, ce n'est qu'un portfolio.<br>
+                                        Le site est réalisé en HTML5, CSS3, Bootstrap, Javascript, jQuery, PHP, Git et utilise le Framework MVC
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
@@ -270,6 +312,45 @@
 
 
 
+                        <!-- BOT DISCORD -->
+                        <div class="col-md-4 mix cat1">
+                            <div class="single_mixi_portfolio center">
+                                <div class="single_portfolio_img">
+                                    <img src="<?= WEBROOT ?>public/images/djs.png" alt="" />
+                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#DiscordModal">
+                                        <a href="#!"><i class="fa
+                                                        fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <div class="single_portfolio_text">
+                                    <h3>Bot Discord</h3>
+                                    <p>Robot utilisable sur le réseau social Discord</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="DiscordModal" tabindex="-1" aria-labelledby="DiscordModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="exampleModalLabel">Discord</h3>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Projet personnel qui consiste à créer un bot Discord qui permettera de faciliter l'organisation d'événements grâce à des commandes.
+                                        Ce bot est réalisé avec Discord.Js qui est un module Node.Js. J'utilise aussi Git pour le versioning.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        
                         <!-- CROCS VINTON -->
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
@@ -291,12 +372,13 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Crocs Vinton</h5>
+                                        <h3 class="modal-title" id="exampleModalLabel">Crocs Vinton</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
                                         Crocs Vinton est mon premier projet web réalisé durant mon BTS SIO.
-                                        C'est une entreprise qui se veux luxieuse qui vend, via un site e-commerce, des "crocs" à des prix exorbitant.
+                                        C'est une entreprise qui se veux luxieuse qui vend, via un site e-commerce, des "crocs" à des prix exorbitant.<br>
+                                        Il est réalisé en HTML, CSS, PHP et MySQL.
                                         <br> Vous pouvez retrouver le site <a href="http://195.221.60.26:11019/2022-promotion_sio/crocsvinton/index.php"> ici.</a>
                                     </div>
                                     <div class="modal-footer">
@@ -329,7 +411,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Topmedecin</h5>
+                                        <h3 class="modal-title" id="exampleModalLabel">Topmedecin</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -365,46 +447,13 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Sonolight</h5>
+                                        <h3 class="modal-title" id="exampleModalLabel">Sonolight</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
                                         Sonolight est notre dernier projet de cours en BTS SIO. Nous avons été contactés par le gérant de l'association "Sonolight" qui souhaite avoir une application mobile permettant de plus facilement gérer les évnènements liés à son association.
-                                        L'application consiste à envoyer des photos prise par des invités qui sera par la suite affiché sur un écran. Un admin doit aussi pouvoir like ou dislike comme sur tinder pour accepter ou non l'affichage de la photo.
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- PORTFOLIO -->
-                        <div class="col-md-4 mix cat1">
-                            <div class="single_mixi_portfolio center">
-                                <div class="single_portfolio_img">
-                                    <img src="<?= WEBROOT ?>public/images/portfolio.png" alt="" />
-                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#PortfolioModal">
-                                        <a href="#!"><i class="fa
-                                                        fa-search"></i></a>
-                                    </div>
-                                </div>
-                                <div class="single_portfolio_text">
-                                    <h3>Ce site web</h3>
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="modal fade" id="PortfolioModal" tabindex="-1" aria-labelledby="PortfolioModal" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Ce site web</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        Projet personnel dans laquel je souhaite avoir un site qui centralisera mes différents projets, héberger des services, me servir de documentation, ... <br> Pour le moment, ce n'est qu'un portfolio.
+                                        L'application consiste à envoyer des photos prise par des invités qui sera par la suite affiché sur un écran. Un admin doit aussi pouvoir like ou dislike comme sur tinder pour accepter ou non l'affichage de la photo.<br>
+                                        Ce projet est réalisé en NodeJS.
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
@@ -414,42 +463,9 @@
                         </div>
 
 
-                        <!-- BOT DISCORD -->
-                        <div class="col-md-4 mix cat1">
-                            <div class="single_mixi_portfolio center">
-                                <div class="single_portfolio_img">
-                                    <img src="<?= WEBROOT ?>public/images/djs.png" alt="" />
-                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#DiscordModal">
-                                        <a href="#!"><i class="fa
-                                                        fa-search"></i></a>
-                                    </div>
-                                </div>
-                                <div class="single_portfolio_text">
-                                    <h3>Bot Discord</h3>
-                                    <p>Robot utilisable sur le réseau social Discord</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="modal fade" id="DiscordModal" tabindex="-1" aria-labelledby="DiscordModal" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Discord</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        Projet personnel qui consiste à créer un bot Discord qui permettera de faciliter l'organisation d'événements.
-                                        L'utilisateur saisi le nom, la date et l'heure prévu de l’événement, puis le bot envoie un message sous forme d'embed puis effectue des réactions (emoji) sous ce message.
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
 
+                        
 
                     </div>
                 </div>
