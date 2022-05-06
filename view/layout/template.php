@@ -35,8 +35,8 @@
         <li><a href="#home" class="menu-btn">Accueil</a></li>
         <li><a href="#about" class="menu-btn">A propos</a></li>
         <li><a href="#skills" class="menu-btn">Compétences</a></li>
+        <li><a href="#parcours" class="menu-btn">Parcours</a></li>
         <li><a href="#portfolio" class="menu-btn">Travaux</a></li>
-        <!--    <li><a href="#contact" class="menu-btn">Contact</a></li>   -->
         <li><a href="https://docs.thibault-yvard.fr/" class="menu-btn">Documentation</a></li>
       </ul>
       <div class="menu-btn">

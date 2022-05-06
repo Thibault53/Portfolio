@@ -19,7 +19,7 @@
         <h2 class="title">A propos de moi</h2>
         <div class="about-content">
             <div class="column left">
-                <img src="<?= WEBROOT ?>public/images/..." alt="">
+                <img src="<?= WEBROOT ?>public/images/CV.png" alt="">
             </div>
             <div class="column right">
                 <div class="text">Je suis Thibault Yvard <span class="typing-2"></span></div>
@@ -42,7 +42,7 @@
         <div class="skills-content">
             <div class="column left">
                 <div class="text">Mes compétences</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                <p>Lors de mon cursus, j'ai aquis plusieurs compétences que ce soit informatique ou humain. J'ai appris les méthodes agiles, le versioning, la gestion de projet, mettre en place une veille technologique ... </p>
                 <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a>
             </div>
             <div class="column right">
@@ -63,14 +63,14 @@
                 <div class="bars">
                     <div class="info">
                         <span>JavaScript</span>
-                        <span>80%</span>
+                        <span>60%</span>
                     </div>
                     <div class="line js"></div>
                 </div>
                 <div class="bars">
                     <div class="info">
                         <span>PHP</span>
-                        <span>50%</span>
+                        <span>70%</span>
                     </div>
                     <div class="line php"></div>
                 </div>
@@ -81,12 +81,58 @@
                     </div>
                     <div class="line mysql"></div>
                 </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Git</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line git"></div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 <hr />
 
+
+
+
+
+<!-- Section Parcours -->
+<section class="parcours" id="parcours">
+    <div class="container">
+        <h2 class="title">Mon parcours</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="content">
+                    <ul class="timeline">
+                        <li class="event" data-date="Février - Mars 2022">
+                            <h3>Développeur logiciel</h3>
+                            <p>Lors d'un stage à cofidur EMS, j'ai réalisé un scheduler en C#.</p>
+                        </li>
+                        <li class="event" data-date="Juillet 2022">
+                            <h3>Préparateur de commande</h3>
+                            <p>Travail Saisonnier à Noz.</p>
+                        </li>
+                        <li class="event" data-date="Mai 2022 - Juin 2022">
+                            <h3>Développeur web</h3>
+                            <p>Lors d'un stage, j'ai réalisé un site web Wordpress</p>
+                        </li>
+                        <li class="event" data-date="2020 - 2022">
+                            <h3>BTS SIO option SLAM</h3>
+                            <p>Lycée Douanier Rousseau à Laval</p>
+                        </li>
+                        <li class="event" data-date="2019 - 2020">
+                            <h3>Bac STI2D option SIN</h3>
+                            <p>Lycée Réaumur à Laval</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr />
 
 
 
