@@ -24,7 +24,7 @@
             <div class="column right">
                 <div class="text">Je suis Thibault Yvard <span class="typing-2"></span></div>
                 <p> J'ai actuellement 21 ans et je suis étudiant en BTS SIO option SLAM à Laval. Vous trouverez ici mes travaux réalisés dans le cadre de mes études et de ma carrière professionnelle.</p>
-                <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a>
+                <!-- <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a> -->
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
             <div class="column left">
                 <div class="text">Mes compétences</div>
                 <p>Lors de mon cursus, j'ai aquis plusieurs compétences que ce soit informatique ou humain. J'ai appris les méthodes agiles, le versioning, la gestion de projet, mettre en place une veille technologique ... </p>
-                <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a>
+                <!-- <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a> -->
             </div>
             <div class="column right">
                 <div class="bars">
@@ -185,12 +185,12 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
-                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
-                                        eligendi possimus corporis obcaecati accusamus.
+                                        Raven est mon deuxième projet web réalisé durant mon BTS SIO.
+                                        C'est une compagnie e-sport qui vend, via un site e-commerce, les produits dérivés de nos équipes compétitives. Le site est réalisé avec le framwork MVC.
+                                        <br> Vous pouvez retrouver le site <a href="http://195.221.60.26:11019/2022-raven/"> ici.</a>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                                     </div>
                                 </div>
                             </div>
@@ -204,7 +204,7 @@
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="<?= WEBROOT ?>public/images/loup-garou.png" alt="" />
-                                    <div class="mixi_portfolio_overlay"  data-bs-toggle="modal" data-bs-target="#LoupGarouModal">
+                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#LoupGarouModal">
                                         <a><i class="fa
                                                         fa-search"></i></a>
                                     </div>
@@ -224,12 +224,10 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
-                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
-                                        eligendi possimus corporis obcaecati accusamus.
+                                        Le Loup Garou est un projet de 1er année de BTS SIO où nous avons réalisé le jeu de société du loup garou sous C#.
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                                     </div>
                                 </div>
                             </div>
@@ -241,7 +239,7 @@
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="<?= WEBROOT ?>public/images/cofidur.png" alt="" />
-                                    <div class="mixi_portfolio_overlay"  data-bs-toggle="modal" data-bs-target="#vtomjobModal">
+                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#vtomjobModal">
                                         <a><i class="fa
                                                         fa-search"></i></a>
                                     </div>
@@ -261,12 +259,10 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
-                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
-                                        eligendi possimus corporis obcaecati accusamus.
+                                        L'application VTOMJOB est un projet de stage. Elle consiste à gérer des "Jobs" (Copie de fichiers dans des dossiers tout en le modifiant). L'application est réalisée en C#, j'ai aussi développé une Librairy, puis réalisé une IHM sous WINDEV.
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                                     </div>
                                 </div>
                             </div>
@@ -279,7 +275,7 @@
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="<?= WEBROOT ?>/public/images/crocsvinton.png" alt="" />
-                                    <div class="mixi_portfolio_overlay"  data-bs-toggle="modal" data-bs-target="#CrocsVitonModal">
+                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#CrocsVitonModal">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
                                     </div>
@@ -299,12 +295,12 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
-                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
-                                        eligendi possimus corporis obcaecati accusamus.
+                                        Crocs Vinton est mon premier projet web réalisé durant mon BTS SIO.
+                                        C'est une entreprise qui se veux luxieuse qui vend, via un site e-commerce, des "crocs" à des prix exorbitant.
+                                        <br> Vous pouvez retrouver le site <a href="http://195.221.60.26:11019/2022-promotion_sio/crocsvinton/index.php"> ici.</a>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                                     </div>
                                 </div>
                             </div>
@@ -317,7 +313,7 @@
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="<?= WEBROOT ?>public/images/topmedecin.png" alt="" />
-                                    <div class="mixi_portfolio_overlay"  data-bs-toggle="modal" data-bs-target="#TopmedecinModal">
+                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#TopmedecinModal">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
                                     </div>
@@ -337,17 +333,15 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
-                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
-                                        eligendi possimus corporis obcaecati accusamus.
+                                        Topmedecin est un site Wordpress réalisé en stage. Ce site souhaite faire face au désert médical qui sévit dans le village de Saint-Ouën-des-Toits en faisant la promotion de ce dernier.
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+
 
 
                         <!-- SONOLIGHT -->
@@ -375,12 +369,11 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
-                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
-                                        eligendi possimus corporis obcaecati accusamus.
+                                        Sonolight est notre dernier projet de cours en BTS SIO. Nous avons été contactés par le gérant de l'association "Sonolight" qui souhaite avoir une application mobile permettant de plus facilement gérer les évnènements liés à son association.
+                                        L'application consiste à envoyer des photos prise par des invités qui sera par la suite affiché sur un écran. Un admin doit aussi pouvoir like ou dislike comme sur tinder pour accepter ou non l'affichage de la photo.
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                                     </div>
                                 </div>
                             </div>
@@ -397,26 +390,24 @@
                                     </div>
                                 </div>
                                 <div class="single_portfolio_text">
-                                    <h3>Portfolio</h3>
-                                    <p>Site professionnel</p>
+                                    <h3>Ce site web</h3>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="modal fade" id="PortfolioModal" tabindex="-1" aria-labelledby="PortfolioModal" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Portfolio</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Ce site web</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
-                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
-                                        eligendi possimus corporis obcaecati accusamus.
+                                        Projet personnel dans laquel je souhaite avoir un site qui centralisera mes différents projets, héberger des services, me servir de documentation, ... <br> Pour le moment, ce n'est qu'un portfolio.
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                                     </div>
                                 </div>
                             </div>
@@ -448,12 +439,11 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
-                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
-                                        eligendi possimus corporis obcaecati accusamus.
+                                        Projet personnel qui consiste à créer un bot Discord qui permettera de faciliter l'organisation d'événements.
+                                        L'utilisateur saisi le nom, la date et l'heure prévu de l’événement, puis le bot envoie un message sous forme d'embed puis effectue des réactions (emoji) sous ce message.
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                                     </div>
                                 </div>
                             </div>

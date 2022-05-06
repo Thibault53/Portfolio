@@ -654,6 +654,7 @@ footer span a:hover {
 
 footer i {
     color: rgb(255, 255, 255);
+    font-size: 1.2rem;
 }
 
 footer .text-sm-right i {
