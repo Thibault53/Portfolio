@@ -364,7 +364,7 @@
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
-                                    <img src="<?= WEBROOT ?>/public/images/crocsvinton.png" alt="" />
+                                    <img src="<?= WEBROOT ?>public/images/crocsvinton.png" alt="" />
                                     <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#CrocsVitonModal">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
