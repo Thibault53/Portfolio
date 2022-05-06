@@ -9,9 +9,12 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
   <script src="https://kit.fontawesome.com/5abf606b2a.js" crossorigin="anonymous"></script>
-  <!-- Bootstrap core CSS -->
-  <link href="<?= WEBROOT ?>public/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+  
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="<?= WEBROOT ?>public/css/bootstrap.css">
+  
 
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="<?= WEBROOT ?>public/css/style.css">
@@ -31,7 +34,7 @@
   <nav class="navbar">
     <div class="max-width">
       <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
-      <ul class="menu">
+      <ul class="menu menu-ul">
         <li><a href="#home" class="menu-btn">Accueil</a></li>
         <li><a href="#about" class="menu-btn">A propos</a></li>
         <li><a href="#skills" class="menu-btn">Compétences</a></li>
@@ -57,17 +60,10 @@
 
   <footer>
     <div class="container">
-      <div class="col-sm-6 col-xs-12">
-        <div class="m-t-2">
-          <p class=""><i class="fa-solid fa-copyright"></i> 2022 Thibault YVARD, Tous droits réservés. </p>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="text-sm-right m-t-2">
-          <a href="https://www.linkedin.com/in/thibault-yvard-754133207/"><i class="fa-brands fa-linkedin"></i></i></a>
-          <a href="https://github.com/Thibault53"><i class="fa-brands fa-github"></i></a>
-        </div>
-      </div>
+      <p class=""><i class="fa-solid fa-copyright"></i> 2022 Thibault YVARD, Tous droits réservés. </p>
+      <hr />
+      <a href="https://www.linkedin.com/in/thibault-yvard-754133207/"><i class="fa-brands fa-linkedin"></i></i></a>
+      <a href="https://github.com/Thibault53"><i class="fa-brands fa-github"></i></a>
   </footer>
 
 </body>

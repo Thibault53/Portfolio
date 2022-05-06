@@ -149,6 +149,12 @@ section .title::after {
     color: #fff;
 }
 
+.menu-ul{
+    padding-left: 15rem;
+}
+
+
+
 /* menu btn styling */
 .menu-btn {
     color: #fff;

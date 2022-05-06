@@ -142,7 +142,7 @@
     <div class="container">
         <div class="row">
             <div class="main_portfolio_area m-y-3">
-                <div class="head_title center wow fadeInUp">
+                <div class="head_title center">
                     <h2 class="title">Mes travaux</h2>
                     <p>Voici les différents projets sur lesquels je travaille ou que j'ai pu effectué</p>
                 </div>
@@ -158,15 +158,14 @@
                     </div>
 
 
-
+                    <!-- RAVEN -->
                     <div id="mixcontent" class="mixcontent zoomIn">
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="<?= WEBROOT ?>public/images/raven.png" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <a href="#modal-01"><i class="fa
-                                                        fa-search"></i></a>
+                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#RavenModal">
+                                        <a><i class="fa fa-search"></i></a>
                                     </div>
                                 </div>
                                 <div class="single_portfolio_text">
@@ -178,12 +177,35 @@
 
 
 
+                        <div class="modal fade" id="RavenModal" tabindex="-1" aria-labelledby="RavenModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Raven</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
+                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
+                                        eligendi possimus corporis obcaecati accusamus.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <!-- LOUP GAROU -->
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="<?= WEBROOT ?>public/images/loup-garou.png" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <a href="#!"><i class="fa
+                                    <div class="mixi_portfolio_overlay"  data-bs-toggle="modal" data-bs-target="#LoupGarouModal">
+                                        <a><i class="fa
                                                         fa-search"></i></a>
                                     </div>
                                 </div>
@@ -194,14 +216,33 @@
                             </div>
                         </div>
 
+                        <div class="modal fade" id="LoupGarouModal" tabindex="-1" aria-labelledby="LoupGarouModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Loup Garou</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
+                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
+                                        eligendi possimus corporis obcaecati accusamus.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
+                        <!-- VTOMJOB -->
                         <div class="col-md-4 mix cat3">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="<?= WEBROOT ?>public/images/cofidur.png" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <a href="#!"><i class="fa
+                                    <div class="mixi_portfolio_overlay"  data-bs-toggle="modal" data-bs-target="#vtomjobModal">
+                                        <a><i class="fa
                                                         fa-search"></i></a>
                                     </div>
                                 </div>
@@ -212,13 +253,33 @@
                             </div>
                         </div>
 
+                        <div class="modal fade" id="vtomjobModal" tabindex="-1" aria-labelledby="vtomjobModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">VTOMJOB</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
+                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
+                                        eligendi possimus corporis obcaecati accusamus.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
+
+                        <!-- CROCS VINTON -->
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="<?= WEBROOT ?>/public/images/crocsvinton.png" alt="" />
-                                    <div class="mixi_portfolio_overlay">
+                                    <div class="mixi_portfolio_overlay"  data-bs-toggle="modal" data-bs-target="#CrocsVitonModal">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
                                     </div>
@@ -230,13 +291,33 @@
                             </div>
                         </div>
 
+                        <div class="modal fade" id="CrocsVitonModal" tabindex="-1" aria-labelledby="CrocsVitonModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Crocs Vinton</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
+                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
+                                        eligendi possimus corporis obcaecati accusamus.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
+
+                        <!-- TOPMEDECIN -->
                         <div class="col-md-4 mix cat3">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="<?= WEBROOT ?>public/images/topmedecin.png" alt="" />
-                                    <div class="mixi_portfolio_overlay">
+                                    <div class="mixi_portfolio_overlay"  data-bs-toggle="modal" data-bs-target="#TopmedecinModal">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
                                     </div>
@@ -248,13 +329,33 @@
                             </div>
                         </div>
 
+                        <div class="modal fade" id="TopmedecinModal" tabindex="-1" aria-labelledby="TopmedecinModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Topmedecin</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
+                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
+                                        eligendi possimus corporis obcaecati accusamus.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
 
 
+                        <!-- SONOLIGHT -->
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="<?= WEBROOT ?>public/images/nodejs.png" alt="" />
-                                    <div class="mixi_portfolio_overlay">
+                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#SonolightModal">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
                                     </div>
@@ -266,13 +367,31 @@
                             </div>
                         </div>
 
+                        <div class="modal fade" id="SonolightModal" tabindex="-1" aria-labelledby="SonolightModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Sonolight</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
+                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
+                                        eligendi possimus corporis obcaecati accusamus.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-
+                        <!-- PORTFOLIO -->
                         <div class="col-md-4 mix cat1">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="<?= WEBROOT ?>public/images/portfolio.png" alt="" />
-                                    <div class="mixi_portfolio_overlay">
+                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#PortfolioModal">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
                                     </div>
@@ -283,14 +402,33 @@
                                 </div>
                             </div>
                         </div>
+                        
+                        <div class="modal fade" id="PortfolioModal" tabindex="-1" aria-labelledby="PortfolioModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Portfolio</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
+                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
+                                        eligendi possimus corporis obcaecati accusamus.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
-
+                        <!-- BOT DISCORD -->
                         <div class="col-md-4 mix cat1">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
                                     <img src="<?= WEBROOT ?>public/images/djs.png" alt="" />
-                                    <div class="mixi_portfolio_overlay">
+                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#DiscordModal">
                                         <a href="#!"><i class="fa
                                                         fa-search"></i></a>
                                     </div>
@@ -301,6 +439,28 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="modal fade" id="DiscordModal" tabindex="-1" aria-labelledby="DiscordModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Discord</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit veritatis blanditiis
+                                        doloremque neque amet dolore nemo doloribus quod sapiente. Reiciendis illo quas amet dolor
+                                        eligendi possimus corporis obcaecati accusamus.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                     </div>
                 </div>
             </div>
