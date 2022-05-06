@@ -24,6 +24,7 @@ if (isset($_GET['p']) && $_GET['p'] != '') {
     $id = null;
 }
 
+
 //On appelle notre controller
 if (file_exists(ROOT . 'controller/' . $controller . '.php')) {
     require ROOT . 'controller/' . $controller . '.php';

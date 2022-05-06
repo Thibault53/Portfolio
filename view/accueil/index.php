@@ -24,7 +24,7 @@
             <div class="column right">
                 <div class="text">Je suis Thibault Yvard <span class="typing-2"></span></div>
                 <p> J'ai actuellement 21 ans et je suis étudiant en BTS SIO option SLAM à Laval. Vous trouverez ici mes travaux réalisés dans le cadre de mes études et de ma carrière professionnelle.</p>
-                <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a>
+                <!-- <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a>-->
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
             <div class="column left">
                 <div class="text">Mes compétences</div>
                 <p>Lors de mon cursus, j'ai aquis plusieurs compétences que ce soit informatique ou humain. J'ai appris les méthodes agiles, le versioning, la gestion de projet, mettre en place une veille technologique ... </p>
-                <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a>
+                <!-- <a href="https://btsinfo53.fr/mahara/user/view.php?id=259">Voir plus</a> -->
             </div>
             <div class="column right">
                 <div class="bars">
@@ -99,7 +99,7 @@
 
 
 <!-- Section Parcours -->
-<section class="parcours" id="parcours">
+<section class="parcours" id="resume">
     <div class="container">
         <h2 class="title">Mon parcours</h2>
         <div class="row">
@@ -143,11 +143,11 @@
         <div class="row">
             <div class="main_portfolio_area m-y-3">
                 <div class="head_title center">
-                    <h2 class="title">Mes travaux</h2>
+                    <h2 class="title">Mes projets</h2>
                     <p>Voici les différents projets sur lesquels je travaille ou que j'ai pu effectué</p>
                 </div>
 
-                <div class="main_portfolio_content center wow fadeInUp">
+                <div class="main_portfolio_content center">
                     <div class="main_mix_menu m-y-2">
                         <ul class="text-uppercase portfolio-filter">
                             <li class="filter" data-filter="all">Tout</li>
@@ -158,13 +158,11 @@
                     </div>
 
 
-                    <!-- RAVEN -->
-                    <div id="mixcontent" class="mixcontent zoomIn">
+                    
+                    <div id="mixcontent" class="mixcontent">
 
 
-
-
-
+                        <!-- RAVEN -->
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
                                 <div class="single_portfolio_img">
@@ -184,7 +182,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="exampleModalLabel">Raven</h3>
+                                        <h3 class="modal-title">Raven</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -200,6 +198,86 @@
                                 </div>
                             </div>
                         </div>
+
+
+
+
+
+                        <!-- VTOMJOB -->
+                        <div class="col-md-4 mix cat3">
+                            <div class="single_mixi_portfolio center">
+                                <div class="single_portfolio_img">
+                                    <img src="<?= WEBROOT ?>public/images/cofidur.png" alt="" />
+                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#vtomjobModal">
+                                        <a><i class="fa
+                                                        fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <div class="single_portfolio_text">
+                                    <h3>VTOMJOB</h3>
+                                    <p>Planificateur de copie</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="vtomjobModal" tabindex="-1" aria-labelledby="vtomjobModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title">VTOMJOB</h3>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        L'application VTOMJOB est un projet de stage. Elle consiste à gérer des "Jobs" (Copie de fichiers dans des dossiers tout en le modifiant). L'application est réalisée en C#, j'ai aussi développé une Library, puis réalisé une IHM sous WINDEV.<br>
+                                        <a href="https://btsinfo53.fr/mahara/view/view.php?id=4133"> Voir en détails</a>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <!-- PORTFOLIO -->
+                        <div class="col-md-4 mix cat1">
+                            <div class="single_mixi_portfolio center">
+                                <div class="single_portfolio_img">
+                                    <img src="<?= WEBROOT ?>public/images/portfolio.png" alt="" />
+                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#PortfolioModal">
+                                        <a href="#!"><i class="fa
+                                                        fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <div class="single_portfolio_text">
+                                    <h3>Ce site web</h3>
+                                    <p>...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="PortfolioModal" tabindex="-1" aria-labelledby="PortfolioModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title">Ce site web</h3>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Projet personnel dans laquel je souhaite avoir un site qui centralisera mes différents projets, héberger des services, me servir de documentation, ... <br> Pour le moment, ce n'est qu'un portfolio.<br>
+                                        Le site est réalisé en HTML5, CSS3, Bootstrap, Javascript, jQuery, PHP, Git et utilise le Framework MVC
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
 
 
 
@@ -225,7 +303,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="exampleModalLabel">Loup Garou</h3>
+                                        <h3 class="modal-title">Loup Garou</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -240,75 +318,6 @@
                         </div>
 
 
-                        <!-- VTOMJOB -->
-                        <div class="col-md-4 mix cat3">
-                            <div class="single_mixi_portfolio center">
-                                <div class="single_portfolio_img">
-                                    <img src="<?= WEBROOT ?>public/images/cofidur.png" alt="" />
-                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#vtomjobModal">
-                                        <a><i class="fa
-                                                        fa-search"></i></a>
-                                    </div>
-                                </div>
-                                <div class="single_portfolio_text">
-                                    <h3>VTOMJOB</h3>
-                                    <p>Planificateur de copie</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="modal fade" id="vtomjobModal" tabindex="-1" aria-labelledby="vtomjobModal" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="exampleModalLabel">VTOMJOB</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        L'application VTOMJOB est un projet de stage. Elle consiste à gérer des "Jobs" (Copie de fichiers dans des dossiers tout en le modifiant). L'application est réalisée en C#, j'ai aussi développé une Library, puis réalisé une IHM sous WINDEV.<br>
-                                        <a href="https://btsinfo53.fr/mahara/view/view.php?id=4133"> Voir en détails</a>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- PORTFOLIO -->
-                        <div class="col-md-4 mix cat1">
-                            <div class="single_mixi_portfolio center">
-                                <div class="single_portfolio_img">
-                                    <img src="<?= WEBROOT ?>public/images/portfolio.png" alt="" />
-                                    <div class="mixi_portfolio_overlay" data-bs-toggle="modal" data-bs-target="#PortfolioModal">
-                                        <a href="#!"><i class="fa
-                                                        fa-search"></i></a>
-                                    </div>
-                                </div>
-                                <div class="single_portfolio_text">
-                                    <h3>Ce site web</h3>
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="modal fade" id="PortfolioModal" tabindex="-1" aria-labelledby="PortfolioModal" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="exampleModalLabel">Ce site web</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        Projet personnel dans laquel je souhaite avoir un site qui centralisera mes différents projets, héberger des services, me servir de documentation, ... <br> Pour le moment, ce n'est qu'un portfolio.<br>
-                                        Le site est réalisé en HTML5, CSS3, Bootstrap, Javascript, jQuery, PHP, Git et utilise le Framework MVC
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
 
 
@@ -333,7 +342,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="exampleModalLabel">Discord</h3>
+                                        <h3 class="modal-title">Discord</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -350,7 +359,7 @@
 
 
 
-                        
+
                         <!-- CROCS VINTON -->
                         <div class="col-md-4 mix cat2">
                             <div class="single_mixi_portfolio center">
@@ -372,7 +381,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="exampleModalLabel">Crocs Vinton</h3>
+                                        <h3 class="modal-title">Crocs Vinton</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -387,6 +396,8 @@
                                 </div>
                             </div>
                         </div>
+
+
 
 
 
@@ -411,7 +422,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="exampleModalLabel">Topmedecin</h3>
+                                        <h3 class="modal-title">Topmedecin</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -423,6 +434,8 @@
                                 </div>
                             </div>
                         </div>
+
+
 
 
 
@@ -447,7 +460,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="exampleModalLabel">Sonolight</h3>
+                                        <h3 class="modal-title">Sonolight</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -461,11 +474,6 @@
                                 </div>
                             </div>
                         </div>
-
-
-
-
-                        
 
                     </div>
                 </div>

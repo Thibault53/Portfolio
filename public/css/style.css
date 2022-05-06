@@ -12,7 +12,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* custom scroll bar */
+/* Barre de défilement custom */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -91,7 +91,9 @@ section .title::after {
 
 
 
-/*-------------------------------------NAVBAR-------------------------------------*/
+/*=====================================================================
+                NAVBAR
+=======================================================================*/
 .navbar {
     position: fixed;
     width: 100%;
@@ -156,7 +158,6 @@ section .title::after {
 
 
 
-/* menu btn styling */
 .menu-btn {
     color: #fff;
     font-size: 23px;
@@ -196,7 +197,17 @@ section .title::after {
 }
 
 
-/*-------------------------------------Accueil-------------------------------------*/
+
+
+
+
+
+
+
+
+/*=====================================================================
+                Accueil
+=======================================================================*/
 .home {
     display: flex;
     background: url("../images/banner.jpg") no-repeat center;
@@ -256,7 +267,19 @@ section .title::after {
     background: none;
 }
 
-/*-------------------------------------A PROPOS-------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*=====================================================================
+                A PROPOS
+=======================================================================*/
 
 .about .about-content .left {
     width: 45%;
@@ -312,7 +335,9 @@ section .title::after {
 
 
 
-/*-------------------------------------SKILLS-------------------------------------*/
+/*=====================================================================
+                COMPETENCES
+=======================================================================*/
 
 
 
@@ -404,7 +429,226 @@ section .title::after {
     width: 50%;
 }
 
-/* footer section styling */
+
+
+
+
+
+
+/*=====================================================================
+                PARCOURS
+=======================================================================*/
+
+.timeline {
+    border-left: 3px solid teal;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    max-width: 40%;
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        max-width: 98%;
+        padding: 25px;
+    }
+}
+
+.timeline h1 {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.timeline h2,
+.timeline h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.timeline .event {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .timeline .event {
+        padding-top: 30px;
+    }
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    left: -207px;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:before {
+        left: 0px;
+        text-align: left;
+    }
+}
+
+.timeline .event:after {
+    -webkit-box-shadow: 0 0 0 3px teal;
+    box-shadow: 0 0 0 3px teal;
+    left: -55.8px;
+    background: #fff;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    content: "";
+    top: 5px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:after {
+        left: -31.8px;
+    }
+}
+
+.rtl .timeline {
+    border-left: 0;
+    text-align: right;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-right: 3px solid #727cf5;
+}
+
+.rtl .timeline .event::before {
+    left: 0;
+    right: -170px;
+}
+
+.rtl .timeline .event::after {
+    left: 0;
+    right: -55.8px;
+}
+
+
+
+
+
+
+
+
+
+
+/*=====================================================================
+                Portfolio
+=======================================================================*/
+
+
+.center, .center-align {
+    text-align: center;
+}
+
+.main_mixi_content {
+    max-height: 900px;
+}
+
+.main_mix_menu ul li {
+    display: inline-block;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+.main_mix_menu ul li.active {
+    color: teal;
+}
+
+.single_mixi_portfolio .single_portfolio_text h3 {
+    margin-bottom: 0;
+    padding-top: 1rem;
+}
+
+.single_portfolio_img {
+    position: relative;
+}
+
+.single_portfolio_img img {
+    width: 100%;
+    height: 230px;
+}
+
+.single_portfolio_img:hover .mixi_portfolio_overlay {
+    opacity: 1;
+}
+
+.mixi_portfolio_overlay {
+    background: rgba(53, 53, 53, 0.55);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    opacity: 0;
+    padding-top: 30%;
+}
+
+.mixi_portfolio_overlay a i {
+    font-size: 1rem;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    outline: none !important;
+}
+
+.mixcontent .mix {
+    display: none;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-origin: 50% 0;
+}
+
+.portfolio-filter{
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/*=====================================================================
+                FOOTER
+=======================================================================*/
+
 footer {
     background: #111;
     padding: 15px 23px;
@@ -421,8 +665,34 @@ footer span a:hover {
     text-decoration: underline;
 }
 
+footer i {
+    color: rgb(255, 255, 255);
+}
 
-/*-------------------------------------RESPONSIVE-------------------------------------*/
+footer .text-sm-right i {
+    color: rgb(180, 180, 180);
+    font-size: 1.4rem;
+}
+
+footer .fa-brands{
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====================================================================
+                RESPONSIVE
+=======================================================================*/
 @media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
@@ -576,218 +846,3 @@ footer span a:hover {
 
 
 
-
-
-
-/*=====================================================================
-                Portfolio
-=======================================================================*/
-
-
-.center, .center-align {
-    text-align: center;
-}
-
-.main_mixi_content {
-    max-height: 900px;
-}
-
-.main_mix_menu ul li {
-    display: inline-block;
-    padding: .5rem 1rem;
-    cursor: pointer;
-}
-
-.main_mix_menu ul li.active {
-    color: teal;
-}
-
-.single_mixi_portfolio .single_portfolio_text h3 {
-    margin-bottom: 0;
-    padding-top: 1rem;
-}
-
-.single_portfolio_img {
-    position: relative;
-}
-
-.single_portfolio_img img {
-    width: 100%;
-    height: 230px;
-}
-
-.single_portfolio_img:hover .mixi_portfolio_overlay {
-    opacity: 1;
-}
-
-.mixi_portfolio_overlay {
-    background: rgba(53, 53, 53, 0.55);
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    transition: .5s;
-    opacity: 0;
-    padding-top: 30%;
-}
-
-.mixi_portfolio_overlay a i {
-    font-size: 1rem;
-    border: 2px solid #fff;
-    color: #fff;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    line-height: 35px;
-    outline: none !important;
-}
-
-.mixcontent .mix {
-    display: none;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform-origin: 50% 0;
-}
-
-.portfolio-filter{
-    font-size: larger;
-    font-weight: bold;
-}
-
-
-
-/*=====================================================================
-                FOOTER
-=======================================================================*/
-
-footer i {
-    color: rgb(255, 255, 255);
-    font-size: 1.2rem;
-}
-
-footer .text-sm-right i {
-    color: rgb(180, 180, 180);
-    font-size: 1.2rem;
-}
-
-
-
-
-
-
-
-
-
-.timeline {
-    border-left: 3px solid teal;
-    border-bottom-right-radius: 4px;
-    border-top-right-radius: 4px;
-    margin: 0 auto;
-    letter-spacing: 0.2px;
-    position: relative;
-    line-height: 1.4em;
-    font-size: 1.03em;
-    padding: 50px;
-    list-style: none;
-    text-align: left;
-    max-width: 40%;
-}
-
-@media (max-width: 767px) {
-    .timeline {
-        max-width: 98%;
-        padding: 25px;
-    }
-}
-
-.timeline h1 {
-    font-weight: 300;
-    font-size: 1.4em;
-}
-
-.timeline h2,
-.timeline h3 {
-    font-weight: 600;
-    font-size: 1rem;
-    margin-bottom: 10px;
-}
-
-.timeline .event {
-    border-bottom: 2px solid #000000;
-    padding-bottom: 25px;
-    margin-bottom: 20px;
-    position: relative;
-}
-
-@media (max-width: 767px) {
-    .timeline .event {
-        padding-top: 30px;
-    }
-}
-
-.timeline .event:last-of-type {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    border: none;
-}
-
-.timeline .event:before,
-.timeline .event:after {
-    position: absolute;
-    display: block;
-    top: 0;
-}
-
-.timeline .event:before {
-    left: -207px;
-    content: attr(data-date);
-    text-align: right;
-    font-weight: 100;
-    font-size: 0.9em;
-    min-width: 120px;
-}
-
-@media (max-width: 767px) {
-    .timeline .event:before {
-        left: 0px;
-        text-align: left;
-    }
-}
-
-.timeline .event:after {
-    -webkit-box-shadow: 0 0 0 3px teal;
-    box-shadow: 0 0 0 3px teal;
-    left: -55.8px;
-    background: #fff;
-    border-radius: 50%;
-    height: 9px;
-    width: 9px;
-    content: "";
-    top: 5px;
-}
-
-@media (max-width: 767px) {
-    .timeline .event:after {
-        left: -31.8px;
-    }
-}
-
-.rtl .timeline {
-    border-left: 0;
-    text-align: right;
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 4px;
-    border-top-left-radius: 4px;
-    border-right: 3px solid #727cf5;
-}
-
-.rtl .timeline .event::before {
-    left: 0;
-    right: -170px;
-}
-
-.rtl .timeline .event::after {
-    left: 0;
-    right: -55.8px;
-}
